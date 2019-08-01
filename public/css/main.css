@@ -279,6 +279,33 @@ body {
   justify-content: center;
   padding-bottom: 8.4375rem; }
 
+.textslider__contact {
+  z-index: 100;
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  bottom: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: calc(0.56818vw + 0.82386rem); }
+  @media (min-width: 75em) {
+    .textslider__contact {
+      font-size: 1.25rem; } }
+  .textslider__contact:hover {
+    color: #DA0E16; }
+
+.textslider__contacts--mail {
+  right: calc(1.13636vw + 0.39773rem); }
+  @media (min-width: 75em) {
+    .textslider__contacts--mail {
+      right: 1.25rem; } }
+
+.textslider__contacts--tel {
+  left: calc(1.13636vw + 0.39773rem); }
+  @media (min-width: 75em) {
+    .textslider__contacts--tel {
+      left: 1.25rem; } }
+
 .textslider__slide {
   position: absolute;
   text-align: center;

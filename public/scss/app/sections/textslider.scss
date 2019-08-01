@@ -8,6 +8,30 @@
     padding-bottom: rem(120 + $textslider-controlls-size);
 }
 
+.textslider__contact{
+    z-index: 100;
+    color: $color-secondary;
+    text-decoration: none;
+    position: fixed;
+    bottom: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    @include linear-interpolation-chain(font-size,(xl:20,s:15));
+    &:hover{
+        color: $color-terciary;
+    }
+}
+
+.textslider__contacts--mail{
+    @include linear-interpolation-chain(right,(xl:20,s:10));
+}
+
+.textslider__contacts--tel{
+    @include linear-interpolation-chain(left,(xl:20,s:10));
+}
+
+
+
 .textslider__slide{
     position: absolute;
     text-align: center;
