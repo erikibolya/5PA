@@ -97,3 +97,24 @@ $footer-logo-widths: (xl: 250, s:200);
 $footer-logo-breakpoint: 400;
 //!footer
 
+$backgorund-images:(
+xl: (
+src: "../img/background-xl.jpg",
+retina: "../img/background-xl@2x.jpg"
+),
+l: (
+src: "../img/background-l.jpg",
+retina: "../img/background-l@2x.jpg"
+),
+m: (
+src: "../img/background-m.jpg",
+retina: "../img/background-m@2x.jpg"
+),
+s: (
+src: "../img/background-s.jpg",
+retina: "../img/background-s@2x.jpg",
+repeat: no-repeat,
+size: cover,
+position: center top
+));
+

@@ -132,3 +132,50 @@
     }
 
 }
+
+@mixin media-background-image($map){
+    @if (type-of($map) != 'map') {
+        @error "media-background-image() $map must be a map";
+    }
+
+    $keys: map-keys($map);
+    $length: length($keys);
+    @for $i from $length through 1{
+        $key: nth($keys, $i);
+        $value: map-get($map,$key);
+        @if (type-of($value) != "map") {
+            @error "media-background-image() $map at #{$key} must be a map";
+        }
+        @if (not map-has-key($value,"src")) {
+            @error "media-background-image() $map at #{$key} src is missing";
+        }
+        @if($i == $length){
+            background-image: url("#{map-get($value,'src')}");
+            @if (map-has-key($value,"retina")) {
+                @include media-retina{
+                    $var: map-get($value,"retina");
+                    background-image: url($var);
+                }
+            }
+            $newMap: map-remove($value,"src","retina");
+            @each $k,$v in $newMap {
+                background-#{$k}: $v;
+            }
+        }@else{
+            @include media($key){
+                background-image: url("#{map-get($value,'src')}");
+                @if (map-has-key($value,"retina")) {
+                    @include media-retina{
+                        $var: map-get($value,"retina");
+                        background-image: url($var);
+                    }
+                }
+                $newMap: map-remove($value,"src","retina");
+                @each $k,$v in $newMap {
+                    background-#{$k}: $v;
+                }
+            }
+        }
+
+    }
+}
