@@ -14,7 +14,6 @@
     text-decoration: none;
     position: fixed;
     bottom: 1em;
-    font-weight: bold;
     cursor: pointer;
     @include linear-interpolation-chain(font-size,(xl:20,s:15));
     &:hover{

@@ -121,7 +121,8 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-size: calc(0.79545vw + 0.65341rem);
-  padding: 0.625rem 0.9375rem; }
+  padding: 0.625rem 0.9375rem;
+  font-weight: bold; }
   @media (min-width: 75em) {
     .header__button {
       font-size: 1.25rem; } }
@@ -285,7 +286,6 @@ body {
   text-decoration: none;
   position: fixed;
   bottom: 1em;
-  font-weight: bold;
   cursor: pointer;
   font-size: calc(0.56818vw + 0.82386rem); }
   @media (min-width: 75em) {
