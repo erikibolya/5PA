@@ -10,7 +10,7 @@ video: -100
 $color-primary: black;
 $color-secondary: white;
 $color-terciary: #DA0E16;
-$color-quartenary: #383a71;
+$color-quartenary: #00008a;
 
 //main
 $main-paddings-top-breakpoint-above:(xl: 102.85, m: 65);
@@ -116,6 +116,6 @@ src: "../img/background-s.jpg",
 retina: "../img/background-s@2x.jpg",
 repeat: no-repeat,
 size: cover,
-position: center top
+position: center center
 ));
 

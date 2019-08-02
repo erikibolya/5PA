@@ -48,7 +48,7 @@ body {
   background-image: url("../img/background-s.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top; }
+  background-position: center center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .background {
       background-image: url("../img/background-s@2x.jpg"); } }
@@ -236,7 +236,7 @@ body {
   background-image: url("../img/background-s.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top; }
+  background-position: center center; }
   @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
     .video-overlay {
       background-image: url("../img/background-s@2x.jpg"); } }
@@ -461,7 +461,7 @@ body {
   transform-origin: 50% 50%;
   transform: rotate(0deg); }
 .menu__link:hover .icon--emailing .icon__path--1 {
-  fill: #383a71;
+  fill: #00008a;
   transform: rotate(-360deg); }
 
 .icon--lettershop .icon__path {
@@ -471,7 +471,7 @@ body {
 .icon--lettershop .icon__path--5 {
   fill: white; }
 .menu__link:hover .icon--lettershop .icon__path:not(.icon__path--5) {
-  fill: #383a71; }
+  fill: #00008a; }
 .menu__link:hover .icon--lettershop .icon__path--3 {
   transform: translateY(-2.5rem); }
 
@@ -488,7 +488,7 @@ body {
   transition-property: fill;
   transition-duration: 500ms; }
 .menu__link:hover .icon--folders .icon__path:not(.icon__path--6) {
-  fill: #383a71; }
+  fill: #00008a; }
 
 .icon--folders.icon--overlay {
   position: absolute;
@@ -529,7 +529,7 @@ body {
   transition-delay: 0s;
   will-change: stroke-dashoffset; }
 .menu__link:hover .icon--service .icon__path--1 {
-  fill: #383a71; }
+  fill: #00008a; }
 .menu__link:hover .icon--service .icon__path--4 {
   stroke-dashoffset: -345;
   transition-delay: 0s; }
@@ -556,8 +556,8 @@ body {
 .icon--transaction .icon__path--8 {
   fill: white; }
 .menu__link:hover .icon--transaction .icon__path:not(.icon__path--8) {
-  fill: #383a71;
-  stroke: #383a71; }
+  fill: #00008a;
+  stroke: #00008a; }
 .menu__link:hover .icon--transaction .icon__path--1 {
   transform: translate(-0.875rem, 0.875rem) scale(1.4, 1.4);
   transition-delay: 0ms,0ms,0ms; }
@@ -577,7 +577,7 @@ body {
 .icon--packaging .icon__path--1 {
   transform-origin: center center; }
 .menu__link:hover .icon--packaging .icon__path {
-  fill: #383a71; }
+  fill: #00008a; }
 .menu__link:hover .icon--packaging .icon__path--1 {
   transform: rotate(45deg); }
 .menu__link:hover .icon--packaging .icon__path--2 {
@@ -595,11 +595,11 @@ body {
   transition-duration: 600ms;
   transition-timing-function: ease; }
 .menu__link:hover .icon--post .icon__path--1, .menu__link:hover .icon--post .icon__path--2 {
-  fill: #383a71;
+  fill: #00008a;
   transform: scale(0.9, 0.9);
   transition-timing-function: cubic-bezier(0.45, 2.69, 0.48, -0.07), ease; }
 .menu__link:hover .icon--post .icon__path--3 {
-  fill: #383a71;
+  fill: #00008a;
   transform: scale(1.1, 1.1) translate(0.25rem, -0.3125rem);
   transition-timing-function: cubic-bezier(0.45, 2.69, 0.48, -0.07), ease; }
 
