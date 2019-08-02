@@ -54,7 +54,7 @@
     }
     @at-root .menu__link:hover .icon--emailing{
         & .icon__path--1{
-            fill: #203ca5;
+            fill: $color-quartenary;
             transform: rotate(-360deg);
         }
     }
@@ -73,7 +73,7 @@
 
     @at-root .menu__link:hover .icon--lettershop{
         .icon__path:not(.icon__path--5){
-            fill: #203ca5;
+            fill: $color-quartenary;
         }
         .icon__path--3{
             transform: translateY(#{rem(-40)});
@@ -106,7 +106,7 @@
     }
     @at-root .menu__link:hover .icon--folders{
         .icon__path:not(.icon__path--6){
-            fill:#203ca5;
+            fill:$color-quartenary;
         }
     }
 }
@@ -161,7 +161,7 @@
     }
     @at-root .menu__link:hover .icon--service{
         .icon__path--1{
-            fill: #203ca5;
+            fill: $color-quartenary;
         }
         .icon__path--4{
             stroke-dashoffset: -345;
@@ -206,8 +206,8 @@
     @at-root .menu__link:hover .icon--transaction{
 
         .icon__path:not(.icon__path--8){
-            fill: #203ca5;
-            stroke: #203ca5;
+            fill: $color-quartenary;
+            stroke: $color-quartenary;
         }
         .icon__path--1{
             transform: translate(rem(-14),rem(14)) scale(1.4,1.4);
@@ -241,7 +241,7 @@
 
     @at-root .menu__link:hover .icon--packaging{
         .icon__path{
-            fill:#203ca5;
+            fill:$color-quartenary;
         }
         .icon__path--1{
             transform: rotate(45deg);
@@ -274,14 +274,14 @@
     @at-root .menu__link:hover .icon--post{
 
         .icon__path--1,.icon__path--2{
-            fill:#203ca5;
+            fill:$color-quartenary;
             transform: scale(0.9,0.9);
             transition-timing-function: cubic-bezier(0.45, 2.69, 0.48, -0.07), ease;
 
 
         }
         .icon__path--3{
-            fill:#203ca5;
+            fill:$color-quartenary;
             transform: scale(1.1,1.1) translate(rem(4),rem(-5));
             transition-timing-function: cubic-bezier(0.45, 2.69, 0.48, -0.07), ease;
         }
