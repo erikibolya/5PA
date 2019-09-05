@@ -30,7 +30,6 @@
 .contacts__map{
     @include fluid-font(s); 
     width: 100%;
-    border: 0.22em solid $color-terciary;
     height: 90vw;
     @include media($contacts-block-breakpoint){
         height: 30vw;
